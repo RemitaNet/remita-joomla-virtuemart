@@ -51,7 +51,7 @@ Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. P
 2. On the  Payment Method page, you'll see the available Payment methods on your Virtuemart Plugin. To add Remita, click on the New button at the top and fill the form that follows.
 3. Below are the required fields and their corresponding details:
 
-![](readMeImage/configPlugin.png)
+![](readMeImage/setUpPlugin.png)
 
      
          * Payment Name: "Remita"
