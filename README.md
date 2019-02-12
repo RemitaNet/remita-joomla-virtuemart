@@ -75,3 +75,5 @@ Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. P
 ![](readMeImage/sucessPage.png)
 
 
+=======
+# remita-joomla-virtuemart
