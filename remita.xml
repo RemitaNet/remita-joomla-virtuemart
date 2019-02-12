@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension method="upgrade" group="vmpayment" type="plugin" version="2.5">
+    <name>VM Payment - Remita</name>
+    <creationDate>January 2019</creationDate>
+    <author>SystemSpecs</author>
+    <authorUrl>https://remita.net/</authorUrl>
+    <copyright>Copyright (C) 2019 SystemSpecs Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>1.0.0</version>
+
+    <description>
+        <![CDATA[
+            Accept payments via Master Card, Visa and Verve. <a href="https://login.remita.net/remita/registration/signup.spa" target="_blank">Click here to sign up for a Remita account</a>.
+		]]>
+    </description>
+
+    <languages>
+        <language tag="en-GB">language/en-GB.plg_vmpayment_remita.ini</language>
+    </languages>
+
+    <files>
+        <folder>language</folder>
+        <filename plugin="remita">remita.php</filename>
+    </files>
+
+    <vmconfig>
+        <fields name="params">
+            <fieldset name="payment" addfieldpath="/plugins/vmpayment/remita/remita/fields">
+                <field name="test_mode"
+                       type="list"
+                       default="0"
+                       label="VMPAYMENT_REMITA_TEST_MODE"
+                       description="">
+                    <option value="0">COM_VIRTUEMART_NO</option>
+                    <option value="1">COM_VIRTUEMART_YES</option>
+                </field>
+                <field type="vmtitle"
+                       description=""
+                       default="VMPAYMENT_REMITA_REMITA_CONF"/>
+                <field type="text"
+                       name="remita_secret_key"
+                       description="VMPAYMENT_REMITA_SECRET_KEY_DESC"
+                       default=""
+                       label="VMPAYMENT_REMITA_SECRET_KEY"
+                       size="50"/>
+                <field type="text"
+                       name="remita_public_key"
+                       description="VMPAYMENT_REMITA_PUBLIC_KEY_DESC"
+                       default=""
+                       label="VMPAYMENT_REMITA_PUBLIC_KEY"
+                       size="50"/>
+            </fieldset>
+        </fields>
+    </vmconfig>
+
+    <updateservers>
+        <server type="extension" name="VirtueMart plg_vmpayment_remita Update Site">
+            <![CDATA[http://virtuemart.net/releases/vm3/plg_vmpayment_remita_update.xml]]></server>
+    </updateservers>
+</extension>
