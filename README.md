@@ -74,3 +74,11 @@ Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. P
 
 ![](readMeImage/sucessPage.png)
 
+
+
+## Useful links
+* Join our Slack Developer/Support channel at http://bit.ly/RemitaDevSlack
+    
+## Support
+- For all other support needs, support@remita.net
+- To contribute to this repo, create an issue on what you intend to fix or update, make a PR and team will look into it and merge.
