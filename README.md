@@ -4,7 +4,6 @@
 - [Overview](#Overview)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Features](Features)
 - [Contributing](#Contributing)
 - [License](License)
 
