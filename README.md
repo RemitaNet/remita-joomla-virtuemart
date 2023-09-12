@@ -2,14 +2,13 @@
 
 
 ---
-- [Summary](#summary)
-- [Plugin Features](#Plugin Features)
-- [Install](#Install)
-- [Setup](#setup)
-- [Others](#other-screenshots-from-remita-virtuemart-plugin)
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
 
 ---
-### Summary
+## Overview
 
 With Remita Joomla Virtuemart Payment Plugin, the store admin can easily add all desired payment methods to the Virtuemart webshop. Please refer to https://www.remita.net for an overview of all features and services.
 
@@ -17,7 +16,7 @@ With Remita Joomla Virtuemart Payment Plugin, the store admin can easily add all
 
 ---
 
-### Plugin Features
+#### Plugin Features
 
 *   __Accept payment__ via Visa Cards, Mastercards, Verve Cards and eWallets
 
@@ -26,11 +25,8 @@ With Remita Joomla Virtuemart Payment Plugin, the store admin can easily add all
 
 ---
 
-### Install
-
-```
-Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. Please ensure you have installed Virtuemart on your Joomla site before installing the Remita Virtuemart Payment Plugin. 
-```
+## Installation
+**Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. Please ensure you have installed Virtuemart on your Joomla site before installing the Remita Virtuemart Payment Plugin.**
 
 
 
@@ -45,6 +41,7 @@ Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. P
 
 ---
 
+## Usage
 ### Setup
 
 1. To setup Remita, on your Joomla Settings, click on Components >> Virtuemart and select Payment Methods.
@@ -68,7 +65,7 @@ Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. P
 6. Click on "Save and Close"
 
 
-### Other Screenshots from Remita Virtuemart Plugin
+### Screenshots from Remita Virtuemart Plugin
 
 ![](readMeImage/otpPage.png)
 
@@ -76,9 +73,17 @@ Note that the Remita Virtuemart Payment Plugin cannot work without Virtuemart. P
 
 
 
-## Useful links
-* Join our Slack Developer/Support channel at http://bit.ly/RemitaDevSlack
+## Contributing
+- To contribute to this repo, follow these guidelines for creating issues, proposing new features, and submitting pull requests:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b "feature-name"`
+3. Make your changes and commit: `git commit -m "added some new features"`
+4. Push your changes: `git push origin feature-name`
+5. Submit a Pull Request (PR).
+
+### Useful links
+* Join our [Slack](http://bit.ly/RemitaDevSlack) community and support channel 
     
-## Support
+### Support
 - For all other support needs, support@remita.net
-- To contribute to this repo, create an issue on what you intend to fix or update, make a PR and team will look into it and merge.
